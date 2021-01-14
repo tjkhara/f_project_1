@@ -1,0 +1,430 @@
+body, html {
+  height: 100%;
+  margin: 0%;
+  background-color: #0000CD;
+}
+
+.bg {
+  /* The image used */
+  background-image: url("../images/page1.png");
+
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+
+/* Next link */
+
+
+
+#link1 {
+  width: auto;
+  height: 50px;
+  position: fixed;
+  top: 45%;
+  left: 80%;
+  /* background: red; */
+  z-index: 2;
+}
+
+#link1 a, a:hover, a:focus, a:active {
+  text-decoration: none;
+  color: inherit;
+  color: white;
+  font-size: 30px
+}
+
+
+/* Page 2 stuff */
+
+/* #outer-div {
+  background-color: red;
+  z-index: -1;
+} */
+
+.bg2 {
+  /* The image used */
+  background-image: url("../images/page2.png");
+
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+
+  /* Add some margin */
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+#link2 {
+  width: auto;
+  height: 50px;
+  position: fixed;
+  top: 85%;
+  left: 80%;
+  /* background: red; */
+  z-index: 2;
+}
+
+#link2 a, a:hover, a:focus, a:active {
+  text-decoration: none;
+  color: inherit;
+  color: white;
+  font-size: 30px
+}
+
+#dark-button {
+  position: fixed;
+  top: 55%;
+  left: 80%;
+  /* background: red; */
+  z-index: 2;
+}
+
+
+/* Page 3 stuff */
+
+.bg3 {
+  /* The image used */
+  background-image: url("../images/page3.png");
+
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+#link3 {
+  width: auto;
+  height: 50px;
+  position: fixed;
+  top: 10%;
+  left: 80%;
+  /* background: red; */
+  z-index: 2;
+}
+
+#link3 a, a:hover, a:focus, a:active {
+  text-decoration: none;
+  color: inherit;
+  color: white;
+  font-size: 30px
+}
+
+
+
+
+/* Page 4 stuff */
+
+#sound-div {
+  height: 450px;
+  width: 800px;
+  position: fixed;
+  top: 30%;
+  left: 30%;
+  /* background-color: red; */
+  filter:alpha(opacity=50); 
+  opacity:0.1;
+}
+
+.bg4 {
+  /* The image used */
+  background-image: url("../images/page4.png");
+
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  z-index: 1;
+}
+
+#link4 {
+  width: auto;
+  height: 50px;
+  position: fixed;
+  top: 10%;
+  left: 90%;
+  /* background: red; */
+  z-index: 5;
+}
+
+#link4 a, a:hover, a:focus, a:active {
+  text-decoration: none;
+  color: inherit;
+  color: white;
+  font-size: 30px
+}
+
+#video-el {
+
+  position: fixed;
+  top: -28%;
+  left: 21%;
+  /* background: red; */
+  z-index: 2;
+  width: 55%;
+  height: 143%;
+
+}
+
+#blue-div {
+  width: 51%;
+  height: 37%;
+  position: fixed;
+  top: 20%;
+  left: 22%;
+  background-color: blue;
+  z-index: 2;
+}
+
+/* Media query for small screens */
+@media(max-width: 1700px) {
+
+  #video-el {
+
+    position: fixed;
+    top: -23%;
+    left: 23%;
+    /* background: red; */
+    z-index: 2;
+    width: 50%;
+    height: 117%;
+  
+  }
+
+  #blue-div {
+    width: 50%;
+    height: 60%;
+    position: fixed;
+    top: 8%;
+    left: 23%;
+    background-color: blue;
+    z-index: 2;
+  }
+}
+
+
+@media(max-width: 1400px) {
+
+  #video-el {
+
+    position: fixed;
+    top: -20%;
+    left: 17%;
+    /* background: red; */
+    z-index: 2;
+    width: 60%;
+    height: 117%;
+  
+  }
+
+  #blue-div {
+    width: 50%;
+    height: 35%;
+    position: fixed;
+    top: 25%;
+    left: 23%;
+    background-color: blue;
+    z-index: 2;
+  }
+}
+
+@media(max-width: 1300px) {
+
+  #video-el {
+
+    position: fixed;
+    top: -27%;
+    left: 17%;
+    /* background: red; */
+    z-index: 2;
+    width: 60%;
+    height: 135%;
+  
+  }
+
+  #blue-div {
+    width: 50%;
+    height: 35%;
+    position: fixed;
+    top: 25%;
+    left: 23%;
+    background-color: blue;
+    z-index: 2;
+  }
+}
+
+
+@media(max-width: 1100px) {
+
+  #video-el {
+
+    position: fixed;
+    top: -22%;
+    left: 17%;
+    /* background: red; */
+    z-index: 2;
+    width: 60%;
+    height: 127%;
+  
+  }
+
+  #blue-div {
+    width: 50%;
+    height: 35%;
+    position: fixed;
+    top: 25%;
+    left: 23%;
+    background-color: blue;
+    z-index: 2;
+  }
+}
+
+
+@media(max-width: 930px) {
+
+  #video-el {
+
+    position: fixed;
+    top: -5%;
+    left: 20%;
+    /* background: red; */
+    z-index: 2;
+    width: 55%;
+    height: 100%;
+  
+  }
+
+  #blue-div {
+    width: 50%;
+    height: 35%;
+    position: fixed;
+    top: 25%;
+    left: 23%;
+    background-color: blue;
+    z-index: 2;
+  }
+}
+
+@media(max-width: 800px) {
+
+  #video-el {
+
+    position: fixed;
+    top: -5%;
+    left: 20%;
+    /* background: red; */
+    z-index: 2;
+    width: 55%;
+    height: 100%;
+  
+  }
+
+  #blue-div {
+    width: 50%;
+    height: 30%;
+    position: fixed;
+    top: 29%;
+    left: 23%;
+    background-color: blue;
+    z-index: 2;
+  }
+}
+
+
+
+@media(max-width: 700px) {
+
+  #video-el {
+
+    position: fixed;
+    top: -5%;
+    left: 20%;
+    /* background: red; */
+    z-index: 2;
+    width: 55%;
+    height: 100%;
+  
+  }
+
+  #blue-div {
+    width: 50%;
+    height: 30%;
+    position: fixed;
+    top: 29%;
+    left: 23%;
+    background-color: blue;
+    z-index: 2;
+  }
+}
+
+
+@media(max-width: 500px) {
+
+  #video-el {
+
+    position: fixed;
+    top: -0%;
+    left: 23%;
+    /* background: red; */
+    z-index: 2;
+    width: 50%;
+    height: 90%;
+  
+  }
+
+  #blue-div {
+    width: 50%;
+    height: 20%;
+    position: fixed;
+    top: 33%;
+    left: 23%;
+    background-color: blue;
+    z-index: 2;
+  }
+}
+
+/* Page 5 stuff */
+
+.bg5 {
+  /* The image used */
+  background-image: url("../images/page5.png");
+
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+
+/* Page 6 stuff */
+
+.bg6 {
+  /* The image used */
+  background-image: url("../images/page6.png");
+
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
