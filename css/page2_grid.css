@@ -1,0 +1,48 @@
+body {
+    background: blue;
+    /* height: 100vh; */
+}
+
+a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
+    color: white;
+    font-size: 30px
+  }
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr .25fr .25fr;
+    grid-gap: 2rem;
+  }
+
+  .item {
+    padding: 3rem;
+    background: blue;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.4rem;
+  }
+
+  #item-1 {
+    grid-row-start: 1;
+    grid-row-end: 5;  
+  }
+
+  #item-1 p {
+    font-family: 'Fraunces', serif;
+    font-size: 80px;
+    margin: 0;
+    padding: 0;
+  }
+
+  #item-2 img {
+    width: 80%;
+  }
+
+  #item-3 {
+   
+  }
+
+

@@ -1,0 +1,67 @@
+body {
+    background: blue;
+    /* height: 100vh; */
+}
+
+a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
+    color: white;
+    font-size: 30px
+  }
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: .25fr 1fr .25fr;
+    grid-gap: 2rem;
+  }
+
+  .item {
+    padding: 3rem;
+    background: blue;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.4rem;
+  }
+
+  #item-1 {
+    transform: skew(25deg);
+    border-right: 1px solid black;
+  }
+
+  #item-3 {
+    transform: skew(-25deg);
+    border-left: 2px solid black;
+  }
+
+  #item-5 {
+    border: 2px solid black;
+  }
+
+  #item-7 {
+    transform: skew(-25deg);
+    border-right: 1px solid black;
+  }
+
+  #item-9 {
+    transform: skew(25deg);
+    border-left: 2px solid black;
+  }
+
+  #video-el {
+      width: 85%;
+  }
+
+  #item-4 p {
+    font-family: 'Fraunces', serif;
+    font-size: 50px;
+    margin: 0;
+    padding: 0;
+  }
+
+  /* Put a size on the image */
+
+  #item-5 img {
+    width: 60%;
+  }
