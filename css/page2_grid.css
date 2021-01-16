@@ -35,6 +35,7 @@ a, a:hover, a:focus, a:active {
     font-size: 80px;
     margin: 0;
     padding: 0;
+    color: whitesmoke;
   }
 
   #item-2 img {
